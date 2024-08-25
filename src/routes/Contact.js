@@ -4,6 +4,7 @@ import Footer from '../Components/Footer'
 import HeroImg2 from '../Components/HeroImg2'
 import ContactMe from '../Components/ContactMe'
 
+
 const Contact = () => {
   return (
     <div>

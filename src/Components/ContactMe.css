@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 15px;
   }
+ 
   
   .message-input {
     width: 100%;
@@ -36,4 +37,38 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(247, 164, 64, 0.4);
   }
-  
+  .ContactMe-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ContactMe-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ContactMe-social-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.ContactMe-social-icon:hover {
+    color: #f1f1f1;
+}-social-icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.ContactMe-social-icon:hover {
+    color: #f1f1f1;
+}

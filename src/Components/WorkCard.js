@@ -22,7 +22,7 @@ const projects = [
   },
   {
     image: media,
-    title: 'Social Media Dashboard',
+    title: 'Meadia Mingle',
     description: 'Manage and track multiple social media accounts.',
     link: 'https://meadia-player.vercel.app',
   },
@@ -48,8 +48,7 @@ const projects = [
 
 
 const WorkCard = () => {
-  const duplicatedProjects = [...projects, ...projects]; // Duplicate the projects
-
+  const duplicatedProjects = [...projects, ...projects]; 
   return (
     <div className='work-container'>
       <div className='project-container'>
@@ -61,7 +60,7 @@ const WorkCard = () => {
             <div className='project-content'>
               <h2 className='project-title'>{project.title}</h2>
               <p className='project-description'>{project.description}</p>
-              <a href={project.link} className='project-link'>
+              <a href={project.link} target='_blank' className='project-link'>
                 <button className='view-button'>View</button>
               </a>
             </div>

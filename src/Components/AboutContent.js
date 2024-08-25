@@ -16,7 +16,7 @@ const AboutContent = () => {
   ];
 
   const education = [
-    { year: '2020-2023', degree: 'Bachelor of Computer AppliCation', institution: 'University of Calicut' },
+    { year: '2020-2023', degree: 'Bachelor of Computer Application', institution: 'University of Calicut' },
     { year: '2018-2020', degree: 'PlusTwo(Computer Science)', institution: 'HSS Chalavara' },
   ];
 
